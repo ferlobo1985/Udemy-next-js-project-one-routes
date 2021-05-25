@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -20,6 +20,19 @@ const Home = () => {
           }}>Go to wheels</Link>
         </li>
       </ul>
+
+
+      <Image
+        src="/images/image_one.jpg"
+        layout="responsive"
+        alt="Picture about a horse"
+        width={6016}
+        height={4016}
+      />
+{/* 
+      <img src="/images/image_one.jpg" width="300"/> */}
+
+
     </>
   )
 }
