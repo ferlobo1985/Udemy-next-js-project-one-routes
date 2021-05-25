@@ -1,7 +1,9 @@
+import style from './index.module.css';
+
 const CarsPage = () => {
     return(
         <>
-            <h1>Cars page</h1>
+            <h1 className={style.red}>Cars page</h1>
         </>
     )
 }
